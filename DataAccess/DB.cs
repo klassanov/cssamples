@@ -14,7 +14,17 @@ namespace DataAccess
     public List<T> GetData(int count) 
     {
       List<T> result = new List<T>();
-      for (int i = 0; i < count; i++)
+
+      int nehomessi = 0;
+      foreach (T item in _dati.Values)
+      {
+        result.Add(item);
+        nehomessi++;
+        if (nehomessi == count) break;
+      }
+
+
+      for (int i = nehomessi; i < count; i++)
       {
         // Creo l'id
         Guid id = Guid.NewGuid();
@@ -30,6 +40,14 @@ namespace DataAccess
 
       }
       return result;
+    }
+
+    public void SetData(Guid id, T item)
+    {
+      if (_dati.ContainsKey(id))
+        _dati[id] = item;
+      else
+        _dati.Add(id, item);
     }
   }
 }

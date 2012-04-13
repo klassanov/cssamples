@@ -13,6 +13,7 @@
       <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" 
         DataSourceID="ObjectDataSource1">
         <Columns>
+          <asp:BoundField DataField="Id" HeaderText="Id" SortExpression="Id" />
           <asp:BoundField DataField="Name" HeaderText="Name" SortExpression="Name" />
           <asp:BoundField DataField="Surname" HeaderText="Surname" 
             SortExpression="Surname" />
@@ -32,7 +33,8 @@
     
     </div>
     <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" 
-      SelectMethod="GetCustomers" TypeName="BusinessLogic.Customer_BL">
+      DataObjectTypeName="Model.Customer" SelectMethod="GetCustomers" 
+      TypeName="BusinessLogic.Customer_BL" UpdateMethod="UpdateCustomer">
     </asp:ObjectDataSource>
     </form>
 </body>

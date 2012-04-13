@@ -24,6 +24,7 @@ namespace BusinessLogic
 
     public List<Customer> GetCustomers()
     {
+      InitDB();
       return _db.GetData(10);
     }
 
@@ -32,7 +33,10 @@ namespace BusinessLogic
     }
 
     public void UpdateCustomer(Customer customer)
-    { }
+    {
+      _db.SetData(customer.Id, customer);
+    
+    }
 
     public void DeleteCustomers(List<Customer> customers)
     { }
