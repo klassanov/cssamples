@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using Model;
 using DataAccess;
+using System.Reflection;
 
 namespace BusinessLogic
 {
@@ -39,6 +40,19 @@ namespace BusinessLogic
     }
 
     public void DeleteCustomers(List<Customer> customers)
-    { }
+    {
+
+      Customer cliente = new Customer();
+      cliente.GetType();
+
+      Type tt = typeof(Customer);
+      foreach (PropertyInfo pp in tt.GetProperties())
+      { 
+        //pp.
+      }
+     
+    
+    
+    }
   }
 }

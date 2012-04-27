@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="pegaso" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=ARCHERAIR\SQLEXPRESS;Initial Catalog=pegaso;Persist Security Info=True;User ID=pegaso" SettingsObjectName="DataBase.Properties.Settings" SettingsPropertyName="pegasoConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tabella1" Member="tabella1s">
+    <Type Name="tabella1">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Surname" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Member="tipo" Type="System.String" CanBeNull="false" />
+      <Association Name="tabella1_tabella2" Member="tabella2s" ThisKey="Id" OtherKey="ParentId" Type="tabella2" />
+      <Type Name="Cliente" />
+      <Type Name="Fornitore" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tabella2" Member="tabella2s">
+    <Type Name="tabella2">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ParentId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NumeroTelefono" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="tabella1_tabella2" Member="tabella1" ThisKey="ParentId" OtherKey="Id" Type="tabella1" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

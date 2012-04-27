@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{4C97B2E0-B953-49A1-B979-70EE751671E9}</ProjectGuid>
+    <ProjectGuid>{E86DBDA8-69FE-4ECD-95B0-405C72BDF57A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Model</RootNamespace>
-    <AssemblyName>Model</AssemblyName>
+    <RootNamespace>Factory</RootNamespace>
+    <AssemblyName>Factory</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,11 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddressBook.cs" />
-    <Compile Include="ARGB2Int.cs" />
-    <Compile Include="Attibutes\NotPrintAttribute.cs" />
-    <Compile Include="Customer.cs" />
+    <Compile Include="Esempio.cs" />
+    <Compile Include="ObjectFactory.cs" />
+    <Compile Include="pippo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{4C97B2E0-B953-49A1-B979-70EE751671E9}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
