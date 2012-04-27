@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e28d5cd3-165c-41a2-80bc-6139935f00e4" name="Paolo Possanzini@ARCHERAIR 2012-04-27 15:23:37" runUser="ArcherAir\Paolo Possanzini" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b64f6e3c-f874-4d40-80bf-369ba9bd7b4f">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\temp\Pegaso 2000\MultiThreading\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Paolo Possanzini_ARCHERAIR 2012-04-27 15_23_37">
+      <DeploymentItem filename="C:\temp\Pegaso 2000\MultiThreading\ParallelSearch\bin\Debug\ParallelSearch.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-27T15:23:37.5673828+02:00" queuing="2012-04-27T15:23:37.6064453+02:00" start="2012-04-27T15:23:37.6152344+02:00" finish="2012-04-27T15:23:38.4306641+02:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="1" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="ARCHERAIR" outcome="Error" timestamp="2012-04-27T15:23:38.0439453+02:00">
+        <Text>One of the background threads threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ParallelSearch.Program.&lt;&gt;c__DisplayClass4`1.&lt;ParallelSearch&gt;b__2(Object mymutex) in C:\temp\Pegaso 2000\MultiThreading\ParallelSearch\Program.cs:line 57
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean ignoreSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(Object obj)</Text>
+      </RunInfo>
+      <RunInfo computerName="ARCHERAIR" outcome="Error" timestamp="2012-04-27T15:23:38.0439453+02:00">
+        <Text>One of the background threads threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ParallelSearch.Program.&lt;&gt;c__DisplayClass4`1.&lt;ParallelSearch&gt;b__2(Object mymutex) in C:\temp\Pegaso 2000\MultiThreading\ParallelSearch\Program.cs:line 57
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean ignoreSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(Object obj)</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ListaConPochiValori" storage="c:\temp\pegaso 2000\multithreading\testproject1\bin\debug\testproject1.dll" id="915ecda9-bde9-57f2-ada3-100f4f9eaa2f">
+      <Execution id="478d17c7-15e5-47cc-b298-34fe47d49efa" />
+      <TestMethod codeBase="C:/temp/Pegaso 2000/MultiThreading/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ListaConPochiValori" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="915ecda9-bde9-57f2-ada3-100f4f9eaa2f" executionId="478d17c7-15e5-47cc-b298-34fe47d49efa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="478d17c7-15e5-47cc-b298-34fe47d49efa" testId="915ecda9-bde9-57f2-ada3-100f4f9eaa2f" testName="ListaConPochiValori" computerName="ARCHERAIR" startTime="2012-04-27T15:23:37.6425781+02:00" endTime="2012-04-27T15:23:38.3994141+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="478d17c7-15e5-47cc-b298-34fe47d49efa">
+      <Output>
+        <ErrorInfo>
+          <Message>The agent process was stopped while the test was running.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

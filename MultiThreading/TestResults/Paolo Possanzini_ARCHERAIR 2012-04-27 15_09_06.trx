@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="de3f4f0b-3d71-4fb8-9e31-94222f545e5b" name="Paolo Possanzini@ARCHERAIR 2012-04-27 15:09:06" runUser="ArcherAir\Paolo Possanzini" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b64f6e3c-f874-4d40-80bf-369ba9bd7b4f">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Paolo Possanzini_ARCHERAIR 2012-04-27 15_09_06">
+      <DeploymentItem filename="C:\temp\Pegaso 2000\MultiThreading\ParallelSearch\bin\Debug\ParallelSearch.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-27T15:09:06.2392578+02:00" queuing="2012-04-27T15:09:07.3486328+02:00" start="2012-04-27T15:09:07.6298828+02:00" finish="2012-04-27T15:09:53.3798828+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestParallelSearchNull1" storage="c:\temp\pegaso 2000\multithreading\testproject1\bin\debug\testproject1.dll" id="74942d01-a335-a367-31a7-4d46dc1d7949">
+      <Execution id="ffd4f296-203c-415a-9f52-f5db305d7c2f" />
+      <TestMethod codeBase="C:/temp/Pegaso 2000/MultiThreading/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestParallelSearchNull1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="74942d01-a335-a367-31a7-4d46dc1d7949" executionId="ffd4f296-203c-415a-9f52-f5db305d7c2f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ffd4f296-203c-415a-9f52-f5db305d7c2f" testId="74942d01-a335-a367-31a7-4d46dc1d7949" testName="TestParallelSearchNull1" computerName="ARCHERAIR" duration="00:00:44.0624887" startTime="2012-04-27T15:09:07.8642578+02:00" endTime="2012-04-27T15:09:53.2705078+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ffd4f296-203c-415a-9f52-f5db305d7c2f">
+    </UnitTestResult>
+  </Results>
+</TestRun>

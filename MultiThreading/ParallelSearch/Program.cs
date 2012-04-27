@@ -6,14 +6,15 @@ using System.Threading;
 
 namespace ParallelSearch
 {
-  class Program
+  public class Program
   {
     static void Main(string[] args)
     {
     }
 
     public List<T> ParallelSearch<T>(List<T> lista,
-                                  Func<T, bool> metodoricerca)
+                                  Func<T, bool> metodoricerca) 
+      where T : class
     {
       if (lista == null || metodoricerca == null)
         throw new ArgumentException("lista and metodoricerca cannot be null");
@@ -43,7 +44,7 @@ namespace ParallelSearch
           Mutex m = mymutex as Mutex;
           m.WaitOne();
 
-          T item = default(T);
+          T item =null;
           do
           {
             lock (codaelementi)
@@ -51,10 +52,10 @@ namespace ParallelSearch
               if (codaelementi.Count > 0)
                 item = codaelementi.Dequeue();
               else
-                item = default(T);
+                item = null;
             }
 
-            if (!item.Equals(default(T)))
+            if (item != null)
             {
               if (metodoricerca(item))
                 lock (risultati)
@@ -62,14 +63,34 @@ namespace ParallelSearch
             }
 
             Thread.Sleep(0);
-          } while (!item.Equals(default(T)));
+          } while (item != null);
           m.ReleaseMutex();
         });
         workthread.Start(mm);
       }
-      Mutex.WaitAll(mutexes.ToArray());
+      foreach (var m in mutexes)
+      {
+        m.WaitOne(); m.ReleaseMutex();
+      }
+     //Mutex.WaitAll(mutexes.ToArray());
 
       return risultati;
+    }
+    
+    public List<T> ParallelSearchSTA<T>(List<T> lista,
+                                  Func<T, bool> metodoricerca)
+      where T:class
+    {
+      List<T> result = null;
+      Thread tt = new Thread((ThreadStart)delegate
+      {
+        result = ParallelSearch(lista,metodoricerca);
+      });
+      tt.SetApartmentState(ApartmentState.MTA);
+      tt.Start();
+
+      tt.Join();
+      return result;
     }
   }
 }

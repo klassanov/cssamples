@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0340e108-e131-4adc-9115-033f63ce7ce6" name="Paolo Possanzini@ARCHERAIR 2012-04-27 15:04:30" runUser="ArcherAir\Paolo Possanzini" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b64f6e3c-f874-4d40-80bf-369ba9bd7b4f">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Paolo Possanzini_ARCHERAIR 2012-04-27 15_04_30">
+      <DeploymentItem filename="C:\temp\Pegaso 2000\MultiThreading\ParallelSearch\bin\Debug\ParallelSearch.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-27T15:04:30.1210938+02:00" queuing="2012-04-27T15:04:31.0117188+02:00" start="2012-04-27T15:04:31.2929688+02:00" finish="2012-04-27T15:04:31.9804688+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestParallelSearchNull1" storage="c:\temp\pegaso 2000\multithreading\testproject1\bin\debug\testproject1.dll" id="74942d01-a335-a367-31a7-4d46dc1d7949">
+      <Execution id="f65a5b5f-a316-40f1-9b24-94fde617804e" />
+      <TestMethod codeBase="C:/temp/Pegaso 2000/MultiThreading/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestParallelSearchNull1" />
+    </UnitTest>
+    <UnitTest name="TestParallelSerachNull2" storage="c:\temp\pegaso 2000\multithreading\testproject1\bin\debug\testproject1.dll" id="d4318a68-735a-c85f-7185-4e8d15896f5d">
+      <Execution id="84f58df4-d592-4be4-8d6b-1af7330238f9" />
+      <TestMethod codeBase="C:/temp/Pegaso 2000/MultiThreading/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestParallelSerachNull2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d4318a68-735a-c85f-7185-4e8d15896f5d" executionId="84f58df4-d592-4be4-8d6b-1af7330238f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="74942d01-a335-a367-31a7-4d46dc1d7949" executionId="f65a5b5f-a316-40f1-9b24-94fde617804e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="84f58df4-d592-4be4-8d6b-1af7330238f9" testId="d4318a68-735a-c85f-7185-4e8d15896f5d" testName="TestParallelSerachNull2" computerName="ARCHERAIR" duration="00:00:00.0315006" startTime="2012-04-27T15:04:31.3085938+02:00" endTime="2012-04-27T15:04:31.8398438+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="84f58df4-d592-4be4-8d6b-1af7330238f9">
+    </UnitTestResult>
+    <UnitTestResult executionId="f65a5b5f-a316-40f1-9b24-94fde617804e" testId="74942d01-a335-a367-31a7-4d46dc1d7949" testName="TestParallelSearchNull1" computerName="ARCHERAIR" duration="00:00:00.0011020" startTime="2012-04-27T15:04:31.8554688+02:00" endTime="2012-04-27T15:04:31.8710938+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f65a5b5f-a316-40f1-9b24-94fde617804e">
+    </UnitTestResult>
+  </Results>
+</TestRun>

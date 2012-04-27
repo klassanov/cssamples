@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3ddba045-3017-4eb6-95d0-6d8c4d3f609b" name="Paolo Possanzini@ARCHERAIR 2012-04-27 15:41:29" runUser="ArcherAir\Paolo Possanzini" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b64f6e3c-f874-4d40-80bf-369ba9bd7b4f">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Paolo Possanzini_ARCHERAIR 2012-04-27 15_41_29">
+      <DeploymentItem filename="C:\temp\Pegaso 2000\MultiThreading\ParallelSearch\bin\Debug\ParallelSearch.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-27T15:41:29.4521484+02:00" queuing="2012-04-27T15:41:30.4677734+02:00" start="2012-04-27T15:41:30.7177734+02:00" finish="2012-04-27T15:41:38.0771484+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ListaConPochiValori" storage="c:\temp\pegaso 2000\multithreading\testproject1\bin\debug\testproject1.dll" id="915ecda9-bde9-57f2-ada3-100f4f9eaa2f">
+      <Execution id="59ddddd2-9579-4338-b0c3-e14c092241d0" />
+      <TestMethod codeBase="C:/temp/Pegaso 2000/MultiThreading/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ListaConPochiValori" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="915ecda9-bde9-57f2-ada3-100f4f9eaa2f" executionId="59ddddd2-9579-4338-b0c3-e14c092241d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="59ddddd2-9579-4338-b0c3-e14c092241d0" testId="915ecda9-bde9-57f2-ada3-100f4f9eaa2f" testName="ListaConPochiValori" computerName="ARCHERAIR" duration="00:00:05.9588189" startTime="2012-04-27T15:41:30.9052734+02:00" endTime="2012-04-27T15:41:37.8896484+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="59ddddd2-9579-4338-b0c3-e14c092241d0">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="648640c9-3f23-49ab-85d2-e9ee9014492e" name="Paolo Possanzini@ARCHERAIR 2012-04-27 15:43:38" runUser="ArcherAir\Paolo Possanzini" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b64f6e3c-f874-4d40-80bf-369ba9bd7b4f">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Paolo Possanzini_ARCHERAIR 2012-04-27 15_43_38">
+      <DeploymentItem filename="C:\temp\Pegaso 2000\MultiThreading\ParallelSearch\bin\Debug\ParallelSearch.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-27T15:43:38.3759766+02:00" queuing="2012-04-27T15:43:38.6416016+02:00" start="2012-04-27T15:43:38.7041016+02:00" finish="2012-04-27T15:43:39.0791016+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestParallelSerachNull2" storage="c:\temp\pegaso 2000\multithreading\testproject1\bin\debug\testproject1.dll" id="d4318a68-735a-c85f-7185-4e8d15896f5d">
+      <Execution id="32a8c043-37f4-4e37-b5ab-869205c8bb6f" />
+      <TestMethod codeBase="C:/temp/Pegaso 2000/MultiThreading/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestParallelSerachNull2" />
+    </UnitTest>
+    <UnitTest name="ListaConPochiValori2" storage="c:\temp\pegaso 2000\multithreading\testproject1\bin\debug\testproject1.dll" id="6a6ab5a5-d1da-b310-d36a-5938de4992f8">
+      <Execution id="cf4752b3-d7b1-4179-b6e2-399b97795d7c" />
+      <TestMethod codeBase="C:/temp/Pegaso 2000/MultiThreading/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ListaConPochiValori2" />
+    </UnitTest>
+    <UnitTest name="TestParallelSearchNull1" storage="c:\temp\pegaso 2000\multithreading\testproject1\bin\debug\testproject1.dll" id="74942d01-a335-a367-31a7-4d46dc1d7949">
+      <Execution id="69429ae2-9386-4f91-95f0-c8e4af04c906" />
+      <TestMethod codeBase="C:/temp/Pegaso 2000/MultiThreading/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestParallelSearchNull1" />
+    </UnitTest>
+    <UnitTest name="ListaConPochiValori" storage="c:\temp\pegaso 2000\multithreading\testproject1\bin\debug\testproject1.dll" id="915ecda9-bde9-57f2-ada3-100f4f9eaa2f">
+      <Execution id="7d8a9e0b-4c40-4bb0-a8b4-22a1d28cbf58" />
+      <TestMethod codeBase="C:/temp/Pegaso 2000/MultiThreading/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ListaConPochiValori" />
+    </UnitTest>
+    <UnitTest name="ListaConPochiValori3" storage="c:\temp\pegaso 2000\multithreading\testproject1\bin\debug\testproject1.dll" id="fb4f6705-d5c2-6306-0bcf-5fe5efafcde0">
+      <Execution id="fbda4c1e-9441-447b-a2c3-17beaff7d221" />
+      <TestMethod codeBase="C:/temp/Pegaso 2000/MultiThreading/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ListaConPochiValori3" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="915ecda9-bde9-57f2-ada3-100f4f9eaa2f" executionId="7d8a9e0b-4c40-4bb0-a8b4-22a1d28cbf58" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4318a68-735a-c85f-7185-4e8d15896f5d" executionId="32a8c043-37f4-4e37-b5ab-869205c8bb6f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fb4f6705-d5c2-6306-0bcf-5fe5efafcde0" executionId="fbda4c1e-9441-447b-a2c3-17beaff7d221" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6a6ab5a5-d1da-b310-d36a-5938de4992f8" executionId="cf4752b3-d7b1-4179-b6e2-399b97795d7c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="74942d01-a335-a367-31a7-4d46dc1d7949" executionId="69429ae2-9386-4f91-95f0-c8e4af04c906" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7d8a9e0b-4c40-4bb0-a8b4-22a1d28cbf58" testId="915ecda9-bde9-57f2-ada3-100f4f9eaa2f" testName="ListaConPochiValori" computerName="ARCHERAIR" duration="00:00:00.0276521" startTime="2012-04-27T15:43:38.7197266+02:00" endTime="2012-04-27T15:43:39.0166016+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d8a9e0b-4c40-4bb0-a8b4-22a1d28cbf58">
+    </UnitTestResult>
+    <UnitTestResult executionId="32a8c043-37f4-4e37-b5ab-869205c8bb6f" testId="d4318a68-735a-c85f-7185-4e8d15896f5d" testName="TestParallelSerachNull2" computerName="ARCHERAIR" duration="00:00:00.0047328" startTime="2012-04-27T15:43:39.0166016+02:00" endTime="2012-04-27T15:43:39.0322266+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="32a8c043-37f4-4e37-b5ab-869205c8bb6f">
+    </UnitTestResult>
+    <UnitTestResult executionId="fbda4c1e-9441-447b-a2c3-17beaff7d221" testId="fb4f6705-d5c2-6306-0bcf-5fe5efafcde0" testName="ListaConPochiValori3" computerName="ARCHERAIR" duration="00:00:00.0019780" startTime="2012-04-27T15:43:39.0322266+02:00" endTime="2012-04-27T15:43:39.0322266+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fbda4c1e-9441-447b-a2c3-17beaff7d221">
+    </UnitTestResult>
+    <UnitTestResult executionId="cf4752b3-d7b1-4179-b6e2-399b97795d7c" testId="6a6ab5a5-d1da-b310-d36a-5938de4992f8" testName="ListaConPochiValori2" computerName="ARCHERAIR" duration="00:00:00.0021432" startTime="2012-04-27T15:43:39.0322266+02:00" endTime="2012-04-27T15:43:39.0478516+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cf4752b3-d7b1-4179-b6e2-399b97795d7c">
+    </UnitTestResult>
+    <UnitTestResult executionId="69429ae2-9386-4f91-95f0-c8e4af04c906" testId="74942d01-a335-a367-31a7-4d46dc1d7949" testName="TestParallelSearchNull1" computerName="ARCHERAIR" duration="00:00:00.0004467" startTime="2012-04-27T15:43:39.0478516+02:00" endTime="2012-04-27T15:43:39.0478516+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="69429ae2-9386-4f91-95f0-c8e4af04c906">
+    </UnitTestResult>
+  </Results>
+</TestRun>
